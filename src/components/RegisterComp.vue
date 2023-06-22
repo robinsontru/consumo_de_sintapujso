@@ -33,7 +33,7 @@
                       v-model.lazy="persona.tipo_documento" required>
                       <option disabled value="">Tipo documento</option>
                       <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
-                      <option value="Cedula de Ciudadania">Cédula de Ciudadanía</option>
+                      <option value="Cedula de Ciudadania">Cedula de Ciudadanía</option>
                       <option value="Cedula de Extrenjeria">Cedula de Extrenjeria</option>
                     </select>
                   </div>
