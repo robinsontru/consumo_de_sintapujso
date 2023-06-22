@@ -33,7 +33,7 @@
                       v-model.lazy="persona.tipo_documento" required>
                       <option disabled value="">Tipo documento</option>
                       <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
-                      <option value="Cédula de Ciudadanía">Cédula de Ciudadanía</option>
+                      <option value="Cedula de Ciudadania">Cédula de Ciudadanía</option>
                       <option value="Cedula de Extrenjeria">Cedula de Extrenjeria</option>
                     </select>
                   </div>
@@ -59,7 +59,7 @@
                   </div>
                   <div class="form-floating">
                     <input type="password" class="form-control rounded-4 mb-1" id="contraseña" placeholder="Contraseña"
-                      v-model="persona.contraseña" required>
+                      v-model="persona.contrasena" required>
                     <label for="password" class="color-form">Contraseña</label>
                   </div>
                   <div class="form-floating ">
