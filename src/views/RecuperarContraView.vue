@@ -235,7 +235,7 @@ export default {
     methods: {
         enviarCorreo() {
             // Hacer la solicitud al backend para enviar el correo electrónico
-            axios.post("https://sintapujos2023.onrender.com/recuperar", { email: this.email })
+            axios.post("https://sintapujos2023-rm77.onrender.com/recuperar", { email: this.email })
                 .then(response => {
                     console.log(response.data);
                     Swal.fire({
@@ -256,7 +256,7 @@ export default {
 
         actualizarcontrasena() {
             // Hacer la solicitud al backend para restablecer la contraseña
-            axios.patch(`https://sintapujos2023.onrender.com/actualizarContrasena/${this.email}`, {
+            axios.patch(`https://sintapujos2023-rm77.onrender.com/actualizarContrasena/${this.email}`, {
                 codigoRecuperar: this.codigoRecuperar,
                 contrasena: this.contrasena,
             })
