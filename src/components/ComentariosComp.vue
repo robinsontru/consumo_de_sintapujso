@@ -2,11 +2,13 @@
   <div class="componente">
     <div class=" row d-flex justify-content-center  ">
       <div class="col-md-8 col-lg-6">
-        <div class=" contenedor card shadow-0 border mb-5 pb-5 mt-2 " style="background-color: #f0f2f5;">
+        <!-- <form @submit="postcomentarios()"> -->
+        <div class=" contenedor card shadow-0 border mb-5 pb-5 mt-2 " style="background-color: #f0f2f5;"  >
           <div class="card-body p-4">
-            <div class="form-outline mb-4 d-flex " v-for="comentario in comentarios" :key="comentario.id_Comentarios"  >
-              <input type="text" id="addANote" class="form-control" placeholder="Escribe un cometario..." />
-              <input type="button" value="Comentario" class="btn btn-outline-primary  btn-xs   mx-1 ">
+            <div class="form-outline mb-4 d-flex " >
+              <input type="text" id="addANote" class="form-control" placeholder="Escribe un cometario..." v-model="newcomen.comentario"/>
+
+              <input type="button" value="Comentario" class="btn btn-outline-primary  btn-xs  mx-1 " @click="postcomentarios()">
             </div>
             <div class="card mb-4">
               <div class="card-body">
@@ -24,10 +26,22 @@
             </div>
           </div>
         </div>
+        <!-- </form> -->
       </div>
     </div>
   </div>
 </template>
+
+
+<!-- <form @submit="postcomentarios()">
+  <div class="mb-4">
+    <label for="nombre" class="form-label">Nombre</label>
+    <tr v-for="usuario in usuarios" v-bind:key="usuario.id_persona">
+      <td class="form-control" id="comentarios" rows="4">
+        {{ usuario.n_documento }}
+      </td>
+    </tr>
+  </div> -->
 
 
 <script>
