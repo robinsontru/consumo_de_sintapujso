@@ -444,8 +444,8 @@ export default {
     data() {
         return {
             // rol: "Aprendiz",
-            rol: "Sicologa",
-            // rol: "Enfermera",
+            // rol: "Sicologa",
+            rol: "Enfermera",
             imagenes: []
         }
 

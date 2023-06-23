@@ -34,7 +34,7 @@
                       <option disabled value="">Tipo documento</option>
                       <option value="Tarjeta de Identidad">Tarjeta de Identidad</option>
                       <option value="Cedula de Ciudadania">Cedula de Ciudadanía</option>
-                      <option value="Cedula de Extrenjeria">Cedula de Extrenjeria</option>
+                      <option value="Cedula de Extranjeria">Cedula de Extrenjeria</option>
                     </select>
                   </div>
                   <div class="form-floating">
@@ -130,7 +130,7 @@ export default {
             icon: response.data.icon,
             message: response.data.message,
             showConfirmButton: false,
-            timer: 6000
+            timer: 1500
           })
         })
     }

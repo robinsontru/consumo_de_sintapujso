@@ -2,11 +2,7 @@
     <div class=" d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-0 pb-0 mb-0 border-bottom">
           <h1 class="h2"> Abrir Agenda</h1>
           <div class="btn-toolbar mb-2 mb-md-0" id="agenda">
-              <div class="btn-group me-2">
-                  <button type="button" class="btn btn-sm btn-outline-secondary rounded-4  me-2">Cancelar</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary rounded-4">
-                      <router-link class="nav-link active" to="/"> Salir</router-link></button>
-              </div>
+            
           </div>
       </div>
    
